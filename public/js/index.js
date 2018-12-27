@@ -25,14 +25,6 @@ socket.on('newLocationMessage', function (message) {
     li.append(a);
     jQuery('#messages').append(li);
 });
-
-// socket.emit('createMessage',{
-//     from: 'Vipin',
-//     text: 'Hello'
-// },function(data){
-//     console.log('got it', data);
-// });
-
 jQuery('#message-form').on('submit', function(e){
     e.preventDefault();
 
