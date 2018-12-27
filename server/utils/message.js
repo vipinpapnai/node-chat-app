@@ -5,6 +5,7 @@ const generateMessage = (from, text) =>{
         from,
         text,
         createdAt: moment.valueOf()
+      }
 };
 
 const generateLocationMessage = (from, lat, long) => {
